@@ -1,0 +1,13 @@
+name: "alda"
+title: "Mano žaidimėliai su Webu situ"
+description: |
+  Manoy Website
+output_dir: "docs"
+
+navbar:
+  right:
+    - text: "Namai"
+      href: index.html
+    - text: "Apie"
+      href: about.html
+output: distill::distill_article
